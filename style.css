@@ -1,0 +1,28 @@
+body {
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    background-color: #f1f1f1;
+}
+
+button {
+    margin: 20px;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.square {
+    flex: 1 0 calc(20% - 20px);
+    background-color: #00ffff;
+    width: calc(100% * (1/4) -10px -1px);
+    height: 120px;
+    margin: 20px;
+}
+
+.yellow-bg {
+    background-color: yellow;
+}
